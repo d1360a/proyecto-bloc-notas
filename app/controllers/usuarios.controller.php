@@ -152,7 +152,4 @@ class UsuariosController extends ApiController
         # Si sale todo bien borramos el usuario
         $this->model->eliminarUsuario($token->id);
     }
-
-    # Controlar: Obtener todos los usuarios (gestion de usuarios)
-    
 }
