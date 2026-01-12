@@ -12,7 +12,7 @@
         function getdbblogNotas($req , $res){
             
             $datosDB = $this->model->getNotitas();
-
+            
             return $res->json($datosDB,200);
         }
         /////traer una nota
