@@ -1,5 +1,4 @@
 <?php
- 
  const USER = 'root';
  const PASS = '';
  const DB = 'db_bloc';
